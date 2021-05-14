@@ -1,0 +1,48 @@
+*{ margin:0; padding:0;}
+body,p,h1,h2,h3,h4,h5,table,ul,li,form,input{ margin:0; padding:0; color:#000; font-family: Arial, Helvetica, sans-serif;}
+body{ font-size:12px; border:none; background: url(../images/bei.jpg) repeat;}
+body{ width:1200px; margin:0 auto;}
+a{ font-size:12px; color:#000; text-decoration:none; border:none; padding:0; margin:0;}
+a:hover{ color:#cccccc;}
+img{ border:0; margin:0; padding:0;}
+ul,li{ list-style:none; border:0; margin:0; padding:0;}
+dl,dt,dd{ margin:0; padding:0; -webkit-margin-start:0;}
+h1,h2,h3,h4,h5{ font-weight:normal; font-size:12px; display:block;}
+strong,b{ font-weight:normal;}
+table,tr,td{ border-spacing:0;}
+em,i,b{ font-style:normal;}
+.clear{ clear:both;}
+
+.main{ width:1200px; margin:0 auto; background:url(../images/bj.jpg) no-repeat #04acec;}
+
+.nav{ width:100%; overflow:hidden; padding-top:37%; padding-left:150px;}
+.nav li{ width:150px; height:34px; background:url(../images/an.png); margin-left:10px; text-align: center; float:left;transition: all 0.6s;}
+.nav li a{ font-size:16px; color:#FFFFFF; line-height:34px; font-weight:bold;}
+.nav li:hover{ margin-top:-3px;}
+
+.nr{ width:100%; overflow:hidden; padding-top:30px;}
+p{ font-size:15px; color:#333333; line-height:30px; padding:10px 20px;}
+.nr h1{ color:#000000; font-weight:bold; font-size:18px;}
+
+.title{ width:100%; overflow:hidden;height:40px; margin-top:30px; border-top:1px dashed #CCCCCC; padding-top:20px;}
+.title h1{ font-size:18px; font-weight:bold; margin-left:30px; line-height:40px; color:#FFFFFF; background:#0099CC; width:150px; border-radius:10px; text-align:center;}
+.fl{ width:100%; overflow:hidden; padding-bottom:30px;}
+.fl li{ width:360px; float:left; margin-left:30px; margin-top:20px;}
+.fl li img{ width:360px; height:240px;}
+.fl li h1{ font-size:15px;  color:#153039; padding:5px 10px; font-weight:bold;}
+.fl li h2{ font-size:15px;  color:#101010; line-height:26px; padding:0 10px;}
+.fl li a{ font-size:14px; color:#000000;}
+.fl li a:hover{ color:#c6ecf9;}
+
+.foot{ width:100%; overflow:hidden; height:50px; font-size:16px; line-height:50px; text-align:center; color:#FFFFFF;background:#067da5;}
+
+.banner{ width:100%; overflow:hidden; text-align:center; padding-top:20px;}
+
+.fang{ width:100%; overflow:hidden; padding-bottom:50px;}
+.fang li{ width:275px; float:left; margin-left:20px; margin-top:20px; height:260px;}
+.fang li img{ width:275px; height:170px; border-radius:20px;}
+.fang li h1{ font-size:15px;  color:#153039; padding:5px 10px; font-weight:bold;}
+.fang li h2{ font-size:15px;  color:#101010; line-height:26px; padding:0 10px;}
+.fang li:hover img{opacity:0.9;filter:alpha(opacity=90);}
+.fang li:hover h1{ color:#FFFFFF;}
+.fang li:hover h2{ color:#FFFFFF;}
